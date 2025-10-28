@@ -20,13 +20,13 @@ with st.sidebar:
     )
     
     if canvas_preset == "10x15 cm":
-        default_w, default_h = 15, 10
+        default_w, default_h = 15.0, 10.0
     elif canvas_preset == "A4 (21x29.7 cm)":
-        default_w, default_h = 21, 29.7
+        default_w, default_h = 21.0, 29.7
     elif canvas_preset == "A5 (14.8x21 cm)":
-        default_w, default_h = 14.8, 21
+        default_w, default_h = 14.8, 21.0
     else:
-        default_w, default_h = 15, 10
+        default_w, default_h = 15.0, 10.0
     
     col1, col2 = st.columns(2)
     with col1:
